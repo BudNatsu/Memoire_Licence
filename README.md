@@ -6,6 +6,8 @@ Sujet : Comment l’IOT, peut-il permettre un suivi détaillé et une potentiell
 
 Travail effetué :
 - Début des recherches sur le sujet (projets existant, …)
+- Début de l'étude bibliographique sur L'IOT (http://univ.scholarvox.com/)
 - Début de rédaction : Introduction, IOT (définition, fonctionnement), Le lien avec la faune et la flore
 N.B: Les parties écrites vont être modifiées car cela nécessite un peu plus d’approfondissement sur les projets et les définitions
 - Ajouts des listes d’abbréviations, glossaire, tableaux et graphique, sources, citations
+
