@@ -1,0 +1,50 @@
+Consigne pour le 31 Mai :
+- Titre
+- Programme de travail
+- Diagramme de Gantt
+- Début de l'étude bibliographique
+- État d'avancement du projet
+- spécification de la partie "technique" que vous allez réaliser.
+
+- Programme de travail :
+
+Préface
+Remerciement
+Chapitre 1 : Introduction
+
+Chapitre 2 : IOT
+    • Définition
+    • Fonctionnement
+    • Protocole de communication utilisés
+
+Chapitre 3 : Le lien avec la faune et la flore
+
+Projets existants :
+    • SmartForest
+    • IOTrees
+    • Rainforest (Faune et flore)
+
+Chapitre 4  :
+La vision global du projet
+Solution envisageable exemple : pour les différents événements (incendies, inondation, braconnage,...) 
+Réseaux à utiliser
+Alimentation et sa gestion.
+
+État d'avancement :
+Étude des projets existant : Rainforest, IOTrees, PantechSolutions, SmartForest, Libelium
+- Début de l'étude bibliographique sur L'IOT (http://univ.scholarvox.com/)
+	- Liste des livres qui peuvent être utile :
+		-   IoT Projects with Bluetooth Low Energy
+		-   Analytics for the Internet of Things (IoT)
+		-   Smarter Decisions : The Intersection of Internet of Things and Decision Science
+		-   IoT: Building Arduino-Based Projects
+Début rédaction (Préface, Remerciement, Introduction,…)
+Début rédaction chapitre 2 et 3 
+Début réflexion de la partie technique à réaliser 
+Recherche mise en place des solutions possibles
+
+Spécifications de la partie tech :
+
+Générer une maquette d'architecture d'un réseau en forêt (théorique) et définitions des dispositifs utile à la surveillance d'une forêt.
+    • Gestion de la "couverture réseau", afin d'éviter toute surconsommation par la perte du signal.
+    • Commencer à réfléchir sur la gestion de l’énergie des dispositifs (batterie, panneau solaire,...)
