@@ -1,0 +1,60 @@
+Projet perso tech
+
+Suivi et connaissance de la dynamique de la forêt : 
+Capteurs :
+	Température : dht11
+	Humidité : dht11, moisture sensor ( dans la terre)
+	Niveau d’une rivière : capteur ultrasonique
+Ensoleillement : luxmètre ( GA1A12S202)
+Pluviométrie : moisture sensor ( dans la terre) SparkFun Soil Moisture Sensor
+Pression atmosphérique : MPL3115A2
+Anémomètre : 
+Déforestation illégale : Projet Rainforest connection ( se base sur de l'audio)
+Suivi de la vie animale : Suivi gps et modem gsm
+Suivi de la pollution : Niveau Co2
+Qualité de l'air : Niveau Co2 350 ppm = normal
+
+Raspberry pi :
+
+Version : Pi 3b/b+ ou Pi Zero W
+
+Picam avec opencv
+Opencv permet la reconnaissance d'objets, d'animaux et de l'homme.
+
+On pourra alors définir des alertes, si un animal passe devant, si un homme passe devant (plage horaire) au cas où il s'agit de braconnier.
+
+Lorsque le Raspberry envoi une alerte, bien définir le nom ainsi que sa position et son secteur, cela permettra de faire une comparaison des données entre le collier GPS et l'alerte émise par le RPI.
+
+Alimentation Raspberry : panneaux solaires + batterie
+Alimentation ESP32 petit panneau solaire avec batterie
+
+Colier GPS: Pour certains animaux.
+
+ 
+
+Architecture : 
+Dispositif connecté à une gateway à l'extérieur de la forêt
+La gateway relié à un réseau zigbee, lorawan, gsm, qui transmet en suite les informations vers des serveurs et tout dépends l'utilité du dispositif,
+Les informations peuvent être envoyées vers des organismes. 
+Simulation :
+Utilisation d'un point d'accès Wi-Fi pour le réseau local, ce point d'accès était connecté à un dongle 4G qui envoyait les informations sur un serveur qui était dans un autre réseau.
+
+Suivi des animaux qui sont en voie d'extinction ou non, afin d'éviter tout braconnage, utilisation d'outils permettant un suivi.
+Outils utilisés : dispositif GPS,PiCam
+
+Comment transmettre les informations, malgré des conditions peu adéquates (zone blanche, ...) ?
+Protocole utilisé et architecture :
+Zigbee, 4G, Wi-Fi
+Gateway en bout de forêts qui permet la connexion entre les appareils et le l'organisme qui gère le suivi.
+
+Dans certains cas, lorsque les données sont trop grandes et demanderaient trop de ressource énergétique pour l'envoi et que c'est des données "non-urgente"
+alors on enregistre sur un support de stockage (carte sd, ...), les personnes viennent récupérer les données de façon régulière.
+
+
+Sachant que ces appareils sont sans ressources énergétique (sans réelle recharge), comment permettre aux objets d'avoir une autonomie assez grande ? 
+(plus grande batterie, utilisation de panneau solaire, ...)
+
+Batterie et panneau solaire, tout dépend de l'utilisation de l'objet connecté. Dans certains cas, une simple pile bouton suffi.
+
+S'il y a un problème dans la forêt et que l'organisme reçoit l'information, le dispositif doit donner son nom (RPI ou ESP32), son secteur et son numéro et l'alerte en question(incendis, inondation, présence détecté en dehors des heures de travails des équipes).
+Si possible envoie d'une photo (tout dépend le réseau et le débit).
